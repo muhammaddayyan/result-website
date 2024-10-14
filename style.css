@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: #f0f3fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.result-card {
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.left-panel {
+  background: linear-gradient(to bottom, #6340fc, #352feb);
+  color: white;
+  padding: 40px;
+  width: 250px;
+  text-align: center;
+}
+
+.left-panel h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.score-circle {
+  background-color: #462bdb;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.out-of {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.left-panel h3 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.right-panel {
+  padding: 30px;
+  width: 300px;
+}
+
+.right-panel h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.summary-list {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9ff;
+}
+
+.black-color{
+  color: #444959;
+}
+
+.spa-color{
+  color: #9c9a9c;
+}
+
+.reaction {
+  color: #ff6b6b;
+  background-color: #ffe6e6;
+}
+
+.memory {
+  color: #ffc700;
+  background-color: #fff8e6;
+}
+
+.verbal {
+  color: #32d7a3;
+  background-color: #e6fff3;
+}
+
+.visual {
+  color: #8b5efc;
+  background-color: #f0e6ff;
+}
+
+.continue-btn {
+  background-color: #303b59;
+  color: white;
+  padding: 10px 20px;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.continue-btn:hover {
+  background-color: #4a36f2;
+}
